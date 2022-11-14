@@ -1,0 +1,65 @@
+/* Contact Us Section */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #606c38;
+}
+.wrapper{
+    width: 350px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 3px 40px rgba(8, 8, 8, 0.13);
+}
+.wrapper form .input-field{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.wrapper form .input-field label{
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.wrapper form .input-field label span{
+  color: red;
+}
+.wrapper form .input-field input,
+.wrapper form .input-field textarea{
+    width: 100%;
+    height: 50px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: rgb(236, 231, 225);
+    border: 2px solid #2e380d;
+    outline: none;
+}
+.wrapper form .input-field input:focus
+.wrapper form .input-field textarea:focus{
+    border: 2px solid #425504;
+}
+.wrapper form .input-field textarea{
+    height: 100px;
+    resize: none;
+}
+.wrapper form button{
+    float: right;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background: linear-gradient(45deg,#4f6212,#49512d);
+    color: #fff;
+    font-weight: 500;
+    box-shadow: 0 10px 20px #7c8e3f;
+    cursor: pointer;
+}
+
